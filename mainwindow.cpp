@@ -4,10 +4,10 @@
 
 #include <QMessageBox>
 
-//user declaration
+//user initialization
 Passenger* user = new Passenger();
 
-//initialize planes
+//plane initialization
 Plane plane_1("AP1", "China", 120);
 Plane plane_2("AP2", "France", 160);
 Plane plane_3("AP3", "India", 90);
