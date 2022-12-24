@@ -3,10 +3,10 @@
 
 #include <QApplication>
 
-//declare user
+//user declaration
 extern Passenger* user;
 
-//declare planes
+//plane declaration
 extern Plane plane_1;
 extern Plane plane_2;
 extern Plane plane_3;
