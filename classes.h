@@ -13,13 +13,11 @@ public:
 
     int credit;
 
-    //Plane bookedPlanes;
-
 public:
 
-	void bookPlane(Plane airp); //books plane
-    void cancelPlane(Plane airp); //cancels plane
-    bool checkAvail(Plane airp); //checks availability
+	void bookPlane(Plane airp);
+    void cancelPlane(Plane airp);
+    bool checkAvail(Plane airp);
 };
 
 class Plane
